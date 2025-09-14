@@ -1,3 +1,3 @@
-- 👋 Hey, I’m @pc2468  
-- 🌌 I code to understand the universe — mostly the big, weird stuff like space, time, and gravity.  
-- 🧠  Learning LaTeX to write clearly, Python to execute clearly.
+- Hey, I’m @pc2468  
+- I code to understand the universe — mostly the big, weird stuff like space, time, and gravity.  
+- Learning LaTeX to write clearly, Python to execute clearly.
