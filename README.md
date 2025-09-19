@@ -11,4 +11,4 @@ I spend most of my time convincing computers to simulate things the universe alr
 
 ---
 
-📫 Reach me: [LinkedIn](https://www.linkedin.com/in/prathamesh-changde-81bb30217/) • [Email](mailto:changdeprathamesh@gmail.com)  
+Reach me: [LinkedIn](https://www.linkedin.com/in/prathamesh-changde-81bb30217/) • [Email](mailto:changdeprathamesh@gmail.com)  
