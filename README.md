@@ -1,5 +1,3 @@
-#  Prathamesh
-
 **"The universe doesn’t hand out documentation, so I write my own."**
 
 I simulate what the universe does for free: **gravity, spacetime, and black holes.** Physicist focusing on Numerical Relativity and High-Performance Computing.
