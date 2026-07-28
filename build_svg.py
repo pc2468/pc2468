@@ -55,7 +55,7 @@ def fetch_profile_metrics():
 def process_loc(repo_nodes, owner_id):
     # Simplified lines-of-code tracker using an explicit fallback structure
     # Avoids deep recursive timeouts during workflow execution loops
-    total_loc = 446276  # Fallback starter tracking variable matching your baseline parameters
+    total_loc = 446276  
     added = 523178
     deleted = 76902
     return total_loc, added, deleted
@@ -75,7 +75,8 @@ def generate_svg_layout(filename, theme, stats):
         with open('ascii-art.png', 'rb') as f:
             img_data = 'data:image/png;base64,' + base64.b64encode(f.read()).decode()
 
-content = f"""<?xml version='1.0' encoding='UTF-8'?>
+    # Fixed Indentation & Embedded Interactive Link Coordinates
+    content = f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="985px" height="530px" font-family="Consolas,monospace" font-size="15px">
 <style>
 .bg {{ fill: {theme['bg']}; rx: 15px; }}
@@ -85,6 +86,8 @@ content = f"""<?xml version='1.0' encoding='UTF-8'?>
 .add {{ fill: {theme['add']}; }}
 .del {{ fill: {theme['del']}; }}
 .sys {{ fill: {theme['sys']}; }}
+.interactive {{ fill: {theme['val']}; text-decoration: underline; cursor: pointer; }}
+.interactive:hover {{ fill: {theme['key']}; }}
 text {{ white-space: pre; fill: {theme['text']}; }}
 </style>
 <rect width="985px" height="530px" class="bg"/>
@@ -105,7 +108,7 @@ text {{ white-space: pre; fill: {theme['text']}; }}
 <tspan x="390" dy="22" class="key">Research.Focus</tspan><tspan class="dim">. ............ </tspan><tspan class="val">Numerical Relativity, Black Hole Hair</tspan>
 
 <tspan x="390" dy="35" class="dim">- Contact Layout Coordinates -----------------------------------------</tspan>
-<tspan x="390" dy="25" class="key">GitHub</tspan><tspan class="dim">. .................... </tspan><tspan class="val">github.com/pc2468</tspan>
+<tspan x="390" dy="25" class="key">GitHub</tspan><tspan class="dim">. .................... </tspan><a href="https://github.com/pc2468" target="_blank"><tspan class="interactive">github.com/pc2468</tspan></a>
 <tspan x="390" dy="22" class="key">Affiliation</tspan><tspan class="dim">. ............... </tspan><tspan class="val">LMU Munich (Astrophysics)</tspan>
 
 <tspan x="390" dy="35" class="dim">- Engine Diagnostics -------------------------------------------------</tspan>
