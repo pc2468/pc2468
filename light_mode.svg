@@ -8,6 +8,8 @@
 .add { fill: #1a7f37; }
 .del { fill: #cf222e; }
 .sys { fill: #6f42c1; }
+.interactive { fill: #0a3069; text-decoration: underline; cursor: pointer; }
+.interactive:hover { fill: #953800; }
 text { white-space: pre; fill: #24292f; }
 </style>
 <rect width="985px" height="530px" class="bg"/>
@@ -28,8 +30,8 @@ text { white-space: pre; fill: #24292f; }
 <tspan x="390" dy="22" class="key">Research.Focus</tspan><tspan class="dim">. ............ </tspan><tspan class="val">Numerical Relativity, Black Hole Hair</tspan>
 
 <tspan x="390" dy="35" class="dim">- Contact Layout Coordinates -----------------------------------------</tspan>
-<tspan x="390" dy="25" class="key">Email.Personal</tspan><tspan class="dim">. ............ </tspan><tspan class="val">your.email@gmail.com</tspan>
-<tspan x="390" dy="22" class="key">LinkedIn</tspan><tspan class="dim">. .................. </tspan><tspan class="val">linkedin.com/in/yourusername</tspan>
+<tspan x="390" dy="25" class="key">GitHub</tspan><tspan class="dim">. .................... </tspan><a href="https://github.com/pc2468" target="_blank"><tspan class="interactive">github.com/pc2468</tspan></a>
+<tspan x="390" dy="22" class="key">Affiliation</tspan><tspan class="dim">. ............... </tspan><tspan class="val">LMU Munich (Astrophysics)</tspan>
 
 <tspan x="390" dy="35" class="dim">- Engine Diagnostics -------------------------------------------------</tspan>
 <tspan x="390" dy="25" class="key">Repos</tspan><tspan class="dim">. ..................... </tspan><tspan class="val">10 (Contributed: 10)</tspan>
