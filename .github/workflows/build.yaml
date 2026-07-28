@@ -1,0 +1,34 @@
+name: Compile Profile Graphics Matrix
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync Source Layer
+        uses: actions/checkout@v3
+      
+      - name: Configure Python Environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Fetch Core Libraries
+        run: pip install lxml requests python-dateutil
+        
+      - name: Compute and Rebuild Graphics Layout
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ${{ github.repository_owner }}
+        run: python build_svg.py
+        
+      - name: Save Assets to Origin Mainline
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg light_mode.svg
+          git commit -m "chore: cycle active vector template data matrices" || exit 0
+          git push
