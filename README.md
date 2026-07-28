@@ -1,4 +1,4 @@
-<a href="https://github.com/YOUR_USERNAME">
+<a href="https://github.com/pc2468">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
     <img alt="Terminal Stat Metrics Dashboard" src="light_mode.svg">
