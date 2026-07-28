@@ -75,7 +75,7 @@ def generate_svg_layout(filename, theme, stats):
         with open('ascii-art.png', 'rb') as f:
             img_data = 'data:image/png;base64,' + base64.b64encode(f.read()).decode()
 
-    content = f"""<?xml version='1.0' encoding='UTF-8'?>
+content = f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="985px" height="530px" font-family="Consolas,monospace" font-size="15px">
 <style>
 .bg {{ fill: {theme['bg']}; rx: 15px; }}
@@ -105,8 +105,8 @@ text {{ white-space: pre; fill: {theme['text']}; }}
 <tspan x="390" dy="22" class="key">Research.Focus</tspan><tspan class="dim">. ............ </tspan><tspan class="val">Numerical Relativity, Black Hole Hair</tspan>
 
 <tspan x="390" dy="35" class="dim">- Contact Layout Coordinates -----------------------------------------</tspan>
-<tspan x="390" dy="25" class="key">Email.Personal</tspan><tspan class="dim">. ............ </tspan><tspan class="val">your.email@gmail.com</tspan>
-<tspan x="390" dy="22" class="key">LinkedIn</tspan><tspan class="dim">. .................. </tspan><tspan class="val">linkedin.com/in/yourusername</tspan>
+<tspan x="390" dy="25" class="key">GitHub</tspan><tspan class="dim">. .................... </tspan><tspan class="val">github.com/pc2468</tspan>
+<tspan x="390" dy="22" class="key">Affiliation</tspan><tspan class="dim">. ............... </tspan><tspan class="val">LMU Munich (Astrophysics)</tspan>
 
 <tspan x="390" dy="35" class="dim">- Engine Diagnostics -------------------------------------------------</tspan>
 <tspan x="390" dy="25" class="key">Repos</tspan><tspan class="dim">. ..................... </tspan><tspan class="val">{stats['repos']} (Contributed: {stats['repos']})</tspan>
