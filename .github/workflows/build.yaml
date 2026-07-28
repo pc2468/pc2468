@@ -9,12 +9,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync Source Layer
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Configure Python Environment
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+          
+      - name: Install System XML Development Libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-dev libxslt-dev python3-dev
           
       - name: Fetch Core Libraries
         run: pip install lxml requests python-dateutil
