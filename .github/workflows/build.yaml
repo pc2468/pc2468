@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Sync Source Layer
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }} # 👈 Tells Git to use your token to push changes
       
       - name: Configure Python Environment
         uses: actions/setup-python@v5
