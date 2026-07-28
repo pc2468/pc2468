@@ -1,3 +1,10 @@
+<a href="https://github.com/YOUR_USERNAME">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+    <img alt="Terminal Stat Metrics Dashboard" src="light_mode.svg">
+  </picture>
+</a>
+
 **"The universe doesn’t hand out documentation, so I write my own."**
 
 I simulate what the universe does for free: **gravity, spacetime, and black holes.** Physicist focusing on Numerical Relativity and High-Performance Computing.
