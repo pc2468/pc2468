@@ -1,11 +1,11 @@
 <a href="https://github.com/pc2468/pc2468">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/pc2468/pc2468/main/dark.svg">
-    <img alt="GitHub Profile README" src="https://github.com/pc2468/pc2468/main/light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="[https://github.com/pc2468/pc2468/main/dark.svg](https://github.com/pc2468/pc2468/blob/main/dark.svg)">
+    <img alt="GitHub Profile README" src="[https://github.com/pc2468/pc2468/main/light.svg](https://github.com/pc2468/pc2468/blob/main/light.svg)">
   </picture>
   <p align="center">
   <img
-    src="https://github.com/pc2468/pc2468/main/dist/github-jet.svg"
+    src="[https://github.com/pc2468/pc2468/main/dist/github-jet.svg](https://github.com/pc2468/pc2468/blob/main/dist/github-jet.svg)"
     alt="GitHub Jet Heatmap"
     width="100%"
   />
