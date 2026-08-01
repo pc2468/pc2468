@@ -1,7 +1,7 @@
 <a href="https://github.com/pc2468/pc2468">
   <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pc2468/pc2468/main/dark.svg">
-<img alt="GitHub Profile README" src="https://raw.githubusercontent.com/pc2468/pc2468/main/light.svg">
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pc2468/pc2468/main/.svg">
+<img alt="GitHub Profile README" src="https://raw.githubusercontent.com/pc2468/pc2468/main/.svg">
   </picture>
   <p align="center">
   <img src="https://raw.githubusercontent.com/pc2468/pc2468/main/dist/github-jet.svg" 
