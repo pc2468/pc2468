@@ -1,9 +1,17 @@
-<a href="https://github.com/pc2468">
+<a href="https://github.com/pc2468/pc2468">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
-    <img alt="Terminal Stat Metrics Dashboard" src="light_mode.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/pc2468/pc2468/main/dark.svg">
+    <img alt="GitHub Profile README" src="https://github.com/pc2468/pc2468/main/light.svg">
   </picture>
+  <p align="center">
+  <img
+    src="https://github.com/pc2468/pc2468/main/dist/github-jet.svg"
+    alt="GitHub Jet Heatmap"
+    width="100%"
+  />
+</p>
 </a>
+
 
 **"The universe doesn’t hand out documentation, so I write my own."**
 
