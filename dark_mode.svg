@@ -20,8 +20,8 @@ text { white-space: pre; fill: #c9d1d9; }
 <tspan x="390" dy="25" class="key">OS</tspan><tspan class="dim">. ........................ </tspan><tspan class="val">Arch Linux x86_64</tspan>
 <tspan x="390" dy="22" class="key">Host</tspan><tspan class="dim">. ...................... </tspan><tspan class="val">LMU Munich Astrophysics Cluster</tspan>
 <tspan x="390" dy="22" class="key">Kernel</tspan><tspan class="dim">. .................... </tspan><tspan class="val">Theoretical Cosmology Core v2026</tspan>
-<tspan x="390" dy="22" class="key">Uptime</tspan><tspan class="dim">. .................... </tspan><tspan class="val">24 yrs, 0 mos, 26 days</tspan>
-<tspan x="390" dy="22" class="key">GitHub Uptime</tspan><tspan class="dim">. ............. </tspan><tspan class="val">2 yrs, 9 mos, 27 days</tspan>
+<tspan x="390" dy="22" class="key">Uptime</tspan><tspan class="dim">. .................... </tspan><tspan class="val">24 yrs, 0 mos, 27 days</tspan>
+<tspan x="390" dy="22" class="key">GitHub Uptime</tspan><tspan class="dim">. ............. </tspan><tspan class="val">2 yrs, 9 mos, 28 days</tspan>
 <tspan x="390" dy="22" class="key">IDE</tspan><tspan class="dim">. ....................... </tspan><tspan class="val">Neovim, VS Code</tspan>
 
 <tspan x="390" dy="30" class="dim">- Core Parameters ----------------------------------------------------</tspan>
